@@ -1,0 +1,510 @@
+
+@keyframes orangeToGreen {
+    0%   {background-color: #FF6F59;}
+   50%  {background-color: #43AA8B;}
+   100% {background-color: #FF6F59;}
+}
+
+@keyframes greenToOrange {
+    0%   {background-color: #43AA8B;}
+   50%  {background-color: #FF6F59;}
+   100% {background-color: #43AA8B;}
+}
+
+body
+{
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  background-color: #E5E5E5;
+
+}
+
+
+.logo
+{
+  width: 30%;
+  margin-left: 80px;
+  margin-top: 10px;
+  margin-right: 700px;
+  float: left;
+  z-index: 1;
+  display: block;
+}
+
+.infoLogo
+{
+  width: 30%;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-right: 700px;
+  float: left;
+  z-index: 1;
+  display: block;
+}
+
+.name
+{
+  width: 15%;
+  position: fixed;
+  bottom: 0;
+  float: left;
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  z-index: 1;
+
+}
+
+.icons
+{
+  width: 160px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+#titleOne
+{
+  font-size: 32px;
+  text-align: center;
+  color: #111111;
+  font-weight:900;
+  text-shadow: 1px 0 #111111;
+  letter-spacing:1px;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin-top: 15px;
+
+}
+
+#titleTwo
+{
+
+  font-size: 32px;
+  text-align: center;
+  color: #111111;
+  font-weight:900;
+  text-shadow: 1px 0 #111111;
+  letter-spacing:1px;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+#titleThree
+{
+
+  font-size: 32px;
+  text-align: center;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  color: #111111;
+  font-weight:900;
+  text-shadow: 1px 0 #111111;
+  letter-spacing:1px;
+  margin-top: 15px;
+}
+
+#titleFour
+{
+  font-size: 32px;
+  text-align: center;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  color: #111111;
+  font-weight:900;
+  text-shadow: 1px 0 #111111;
+  letter-spacing:1px;
+  margin-top: 15px;
+}
+
+#titleFive
+{
+  font-size: 32px;
+  text-align: center;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  color: #111111;
+  font-weight:900;
+  text-shadow: 1px 0 #111111;
+  letter-spacing:1px;
+  margin-top: 15px;
+}
+
+#titleSix
+{
+  font-size: 32px;
+  text-align: center;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  color: #111111;
+  font-weight:900;
+  text-shadow: 1px 0 #111111;
+  letter-spacing:1px;
+  margin-top: 15px;
+}
+
+#firstBox
+{
+  width: 500px;
+  height: 250px;
+  background-color: #43AA8B ;
+  margin: 60px;
+  float: left;
+  margin-left: 80px;
+  margin-top: 60px;
+  border-radius: 100px;
+}
+
+#firstBox:hover
+{
+  animation-name: greenToOrange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#secondBox
+{
+  width: 500px;
+  height: 250px;
+  background-color: #FF6F59 ;
+  float: left;
+  margin: 60px;
+  margin-top: 60px;
+  border-radius: 100px;
+}
+
+#secondBox:hover
+{
+  animation-name: orangeToGreen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#thirdBox
+{
+  width: 500px;
+  height: 250px;
+  background-color:#43AA8B ;
+  float: left;
+  margin: 60px;
+  margin-top: 60px;
+  border-radius: 100px;
+}
+
+#thirdBox:hover
+{
+  animation-name: greenToOrange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#fourthBox
+{
+  width: 500px;
+  height: 250px;
+  background-color:#FF6F59 ;
+  float: left;
+  margin: 60px;
+  margin-left: 80px;
+  margin-top: 60px;
+  border-radius: 100px;
+
+}
+
+#fourthBox:hover
+{
+  animation-name: orangeToGreen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#fifthBox
+{
+  width: 500px;
+  height: 250px;
+  background-color:#43AA8B ;
+  float: left;
+  margin: 60px;
+  margin-top: 60px;
+  border-radius: 100px;
+}
+
+#fifthBox:hover
+{
+  animation-name: greenToOrange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#sixBox
+{
+  width: 500px;
+  height: 250px;
+  background-color:#FF6F59 ;
+  float: left;
+  margin: 60px;
+  margin-top: 60px;
+  border-radius: 100px;
+}
+
+#sixBox:hover
+{
+  animation-name: orangeToGreen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#bottomBar
+{
+  width: 10%;
+  height: 7.5%;
+  margin-left: 88%;
+  margin-bottom: 30px;
+  position: fixed;
+  bottom: 0px;
+  background-color: #FF6F59;
+  opacity: 0.95;
+  z-index: 1;
+  display: block;
+    border-radius: 100px;
+}
+
+#bottomBar:hover
+{
+  animation-name: orangeToGreen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.back
+{
+  width: 35%;
+  margin-left: 30%;
+  margin-top: 25px;
+}
+
+.infoContent
+{
+  font-size: 25px;
+  margin-top: 6%;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  color: #111111;
+  font-weight:900;
+  text-align: center;
+  text-shadow: 1px 0 #111111;
+  letter-spacing:1px;
+}
+
+.infoContent2
+{
+  font-size: 30px;
+  margin-top: 10%;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  color: #111111;
+  font-weight:900;
+  text-align: center;
+  text-shadow: 1px 0 #111111;
+  letter-spacing:1px;
+}
+
+.info
+{
+  width: 800px;
+  height: 250px;
+  background-color:#FF6F59 ;
+  float: left;
+  margin: 60px;
+  margin-top: 60px;
+  border-radius: 100px;
+  display: block;
+}
+
+.info:hover
+{
+  animation-name: orangeToGreen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.moreInfo
+{
+  width: 800px;
+  height: 250px;
+  background-color:#43AA8B ;
+  float: left;
+  margin: 60px;
+  margin-top: 60px;
+  border-radius: 100px;
+  display: block;
+}
+
+.info2
+{
+  width: 800px;
+  height: 500px;
+  background-color:#43AA8B ;
+  float: right;
+  margin: 60px;
+  margin-right: 300px;
+  margin-top: 60px;
+  border-radius: 100px;
+  display: block;
+}
+
+.info2:hover
+{
+  animation-name: greenToOrange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.info3
+{
+  width: 800px;
+  height: 200px;
+  background-color:#FF6F59 ;
+  float: left;
+  margin: 60px;
+  margin-top: 100px;
+  border-radius: 100px;
+  display: block;
+}
+
+.info3:hover
+{
+  animation-name: orangeToGreen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.moreInfo:hover
+{
+  animation-name: greenToOrange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.gameInfo
+{
+  width: 700px;
+  height: 300px;
+  background-color:#43AA8B ;
+  float: left;
+  margin-top: 60px;
+  border-radius: 100px;
+  display: block;
+  margin-left: 7%;
+}
+
+.gameInfo:hover
+{
+  animation-name: greenToOrange;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.gameInfo2
+{
+  width: 700px;
+  height: 300px;
+  background-color:#FF6F59 ;
+  float: right;
+  margin-top: 60px;
+  border-radius: 100px;
+  display: block;
+  margin-right: 10%;
+
+}
+
+.gameInfo2:hover
+{
+  animation-name: orangeToGreen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.gameTitle
+{
+  font-size: 30px;
+  margin-top: 6%;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  text-align: center;
+    color: #111111;
+  font-weight: bolder;
+  text-shadow: 1px 0 #111111;
+}
+
+.gameDescription
+{
+  font-size: 15px;
+  margin-top: 6%;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  color: #111111;
+  font-weight:900;
+  text-align: center;
+  text-shadow: 1px 0 #111111;
+  letter-spacing:1px;
+}
+
+.gameDownload
+{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#mineShooter
+{
+  margin-top: 50px;
+  margin-left: 10%;
+    border-radius: 25px;
+}
+
+#technoGame
+{
+  width: 34%;
+  margin-top: 50px;
+  margin-right: 11%;
+  border-radius: 25px;
+  float: right;
+}
+
+#coffeeGame
+{
+  width: 34%;
+  margin-top: 50px;
+  margin-right: 11%;
+  border-radius: 25px;
+  float: right;
+}
+
+#oldSite
+{
+  margin-top: 50px;
+  margin-left: 10%;
+    border-radius: 25px;
+    width: 30%;
+}
+#coming
+{
+  width: 100%;
+  margin-top: 10%;
+}
